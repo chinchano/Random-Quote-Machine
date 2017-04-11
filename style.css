@@ -1,0 +1,75 @@
+body {
+  background-color: #c2d1f0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.lead {
+  background-color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  width: 550px;
+  height: 200px;
+  display: table;
+  border-radius: 6px;
+  margin: 7% auto auto auto;
+  position: relative;
+  margin-top: 30px;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 1.8em;
+  color: black;
+  padding: 20px 0 10px 20px;
+}
+
+.quote-container {
+  text-align: center;
+  margin: 4px;
+  min-height: 100px;
+}
+#newQuote {
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 295px;
+  margin-top: 10px;
+  position: absolute;
+  
+ 
+}
+
+#tweetIt {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding-top: 10px;
+  margin-left: 730px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: teal;
+  font-family: 'Lucida Console', monospace;
+  font-weight: 400;
+  opacity: 1;
+  
+}
+
+
+#tweetIt:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.footer {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 50px
+}
